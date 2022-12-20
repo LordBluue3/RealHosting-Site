@@ -1,8 +1,8 @@
 import './Paragraph.css'
 
-export const Paragraph = ({color, text, size}) =>{
+export const Paragraph = ({color, text}) =>{
     return(
-        <p className={color} style={{fontSize: {size}}}>{text}</p>
+        <p className={color} >{text}</p>
     )
 }
 
